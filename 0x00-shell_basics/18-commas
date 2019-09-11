@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lamp --group-directories-first
+ls -lampX --group-directories-first
