@@ -1,0 +1,1 @@
+Directory for fifth project of Holberton scripts
