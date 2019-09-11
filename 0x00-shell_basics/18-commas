@@ -1,2 +1,4 @@
 #!/bin/bash
-ls -lampX --group-directories-first
+ls -ladmp
+
+
