@@ -1,0 +1,1 @@
+The directory for tasks for project six of holberton. This directory will contain seventeen to nineteen tasks.
