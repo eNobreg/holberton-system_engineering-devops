@@ -1,0 +1,22 @@
+total 52
+drwxr-xr-x 2 root root 4096 Sep 14 20:28 .
+drwxr-xr-x 6 root root 4096 Sep 13 15:21 ..
+-rwxr-xr-x 1 root root   32 Sep 14 11:03 0-hello_world
+-rwxr-xr-x 1 root root   28 Sep 14 11:11 1-confused_smiley
+-rwxr-xr-x 1 root root   28 Sep 14 11:11 1-confused_smiley~
+-rwxr-xr-x 1 root root   28 Sep 14 11:18 2-hellofile
+-rwxr-xr-x 1 root root   27 Sep 14 11:13 2-hellofile~
+-rwxr-xr-x 1 root root   39 Sep 14 11:17 3-twofiles
+-rw-r--r-- 1 root root    0 Sep 14 11:17 3-twofiles~
+-rwxr-xr-x 1 root root   29 Sep 14 11:25 4-lastlines
+-rw-r--r-- 1 root root    0 Sep 14 11:24 4-lastlines~
+-rw-r--r-- 1 root root   29 Sep 14 11:27 5-firstlines
+-rw-r--r-- 1 root root    0 Sep 14 11:26 5-firstlines~
+-rwxr-xr-x 1 root root   83 Sep 14 20:24 7-file
+-rw-r--r-- 1 root root    0 Sep 14 20:23 7-file~
+-rw-r--r-- 1 root root    2 Sep 13 15:22 .gitignore
+-rw-r--r-- 1 root root    0 Sep 13 15:22 .gitignore~
+-rw-r--r-- 1 root root   39 Sep 13 15:22 README.md
+-rw-r--r-- 1 root root    0 Sep 13 15:22 README.md~
+-rw-r--r-- 1 root root    0 Sep 14 20:29 results
+-rw-r--r-- 1 root root    0 Sep 14 20:28 testing
