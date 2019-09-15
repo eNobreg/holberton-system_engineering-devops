@@ -1,2 +1,2 @@
 #!/bin/bash
-find path -printf"%f\n" -empty
+find path -printf "%f\n" -empty
