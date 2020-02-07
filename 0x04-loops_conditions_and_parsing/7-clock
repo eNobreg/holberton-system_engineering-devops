@@ -2,7 +2,7 @@
 #Learning while loops in bash
 x=0
 j=1
-while [ $x -le 20 ]
+while [ $x -le 12 ]
 do
 	echo "Hour: $x"
 	j=1
