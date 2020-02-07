@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# This Is a script
+for entry in $( ls ):
+do
+	echo "$entry" | cut -d "-" -f 2-
+done

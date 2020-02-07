@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# This Is a script
+for i in "Holberton School" "Holberton School" "Holberton School" "Holberton School" "Holberton School" "Holberton School" "Holberton School" "Holberton School" "Holberton School" "Holberton School"
+
+do
+	echo "$i"
+done
