@@ -1,0 +1,29 @@
+#!/usr/bin/env bash
+#This is a comment
+_start() 
+{
+	./manage_my_process &
+	echo "$$" > '/var/run/my_process.pid'
+}
+_stop() 
+{
+	pkill -f ./manage_my_process 
+	rm '/var/run/my_process.pid'
+}
+_restart() 
+{
+	_stop
+	_start
+	echo "manage_my_process restarted"
+}
+if [ "$1" = "start" ]; then
+	echo "manage_my_process started"
+	_start
+elif [ "$1" = "stop" ]; then
+	echo "manage_my_process stopped"
+	_stop
+elif [ "$1" = "restart" ]; then
+	_restart
+else
+	echo "Usage: manage_my_process {start|stop|restart}"
+fi
