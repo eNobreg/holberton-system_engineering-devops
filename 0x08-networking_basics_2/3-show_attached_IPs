@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#Filter ips
+ifconfig | grep "inet " | cut -d " " -f 10
