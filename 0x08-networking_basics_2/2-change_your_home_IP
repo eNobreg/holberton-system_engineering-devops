@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
 #Comment
-sudo sed -i 's/127.0.0.1	localhost/127.0.0.2	localhost/' /etc/hosts 
-sudo sed -i '1s/^/8.8.8.8	facebook.com\n/' /etc/hosts 
+cp /etc/hosts ~/hosts.new
+sed -i 's/127.0.0.1	localhost/127.0.0.2	localhost/' ~/hosts.net
+sed -i '1s/^/8.8.8.8	facebook.com\n/' ~/hosts.new
+cp -f ~/hosts.new /etc/hosts
