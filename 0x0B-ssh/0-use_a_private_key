@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+ssh -p 22 -i ~/.ssh/holberton ubuntu@35.227.77.93
