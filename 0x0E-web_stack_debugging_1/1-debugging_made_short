@@ -2,4 +2,4 @@
 # Comment
 sudo sed -i "s/8080/80/g" /etc/nginx/sites-enabled/default
 sudo service nginx restart
-pkill nginx
+sudo rm /var/run/nginx.pid
