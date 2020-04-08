@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # Comment
+#shellcheck disable=SC2086
 
 
 s_domains=( www lb-01 web-01 web-02 )
