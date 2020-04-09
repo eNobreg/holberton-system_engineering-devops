@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Comments
+runuser -l $1 -c "whoami"
