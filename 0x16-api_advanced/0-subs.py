@@ -12,7 +12,7 @@ def number_of_subscribers(subreddit):
     user_agent = "person_at_school"
     header = {'User-Agent': user_agent}
     resp = requests.get(url, headers=header, allow_redirects=False)
-    if (resp.status_code == 302):
+    if (resp.status_code != 200):
         return 0
     else:
         return(resp.json()['data']['subscribers'])
