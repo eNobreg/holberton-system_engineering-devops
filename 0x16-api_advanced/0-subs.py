@@ -5,8 +5,6 @@
 def number_of_subscribers(subreddit):
     """ Return the number of subscribers of a subreddit """
     import requests
-    import json
-    from sys import argv
 
     url = "https://www.reddit.com/r/{}/about.json".format(subreddit)
     user_agent = "person_at_school"
